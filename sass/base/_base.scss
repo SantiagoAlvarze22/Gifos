@@ -1,0 +1,19 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+  scroll-behavior: smooth;
+}
+
+html {
+  font-size: 62.5%; //1rem --> 10px
+  @media only screen and (min-width: $bp-mobile) {
+    font-size: 50%; //1rem --> 8px
+  }
+}
+
+body {
+  box-sizing: border-box;
+}
