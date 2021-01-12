@@ -1,19 +1,15 @@
-$color-primary: #0000ec;
+$color-primary: #572ee5;
 $color-white: #fff;
-$color-heading: #060a24;
-$color-button: #00f3bb;
-$color-active: #060a24;
+$color-secondary: #50e3c2;
+// $color-button: #50e3c2;
+$color-active: #9cafc3;
 
-//linear gradient colors
-$color-lg-light: #0000ff;
-$color-lg-dark: #0000a3;
-
-$font-mono: 'IBM Plex Mono', monospace;
-$font-sans: 'IBM Plex Sans', sans-serif;
+$font-monserrat: 'Montserrat', sans-serif;
+$font-roboto: 'Roboto', sans-serif;
 
 //Responsive breakpoints
 
 $bp-largest: 75em; //1200px / 16px default fontsize
 $bp-medium: 56.25em; //900px
 $bp-small: 37.5em; //600px
-$bp-mobile: 23.45em; //375px
+// $bp-mobile: 23.45em; //375px

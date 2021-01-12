@@ -1,0 +1,10 @@
+.header {
+  // width: 100vw;
+  @media only screen and (min-width: $bp-small) {
+    display: flex;
+    justify-content: center;
+    margin: 0 3rem 0 3rem;
+
+    width: 100vw;
+  }
+}

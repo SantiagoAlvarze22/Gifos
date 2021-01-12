@@ -5,14 +5,32 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/sass/main.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   <title>Document</title>
 </head>
 
 <body>
   <header class="header">
-    <div class="header__container">
-      <img class="header__container--logo" src="assets/logo-mobile.svg" alt="header-mobile-icon">
-      <div class="header__container--menu">Menu</div>
+    <div class="navigation">
+      <img class="navigation__logo" src="assets/logo-mobile.svg" alt="header-mobile-icon">
+      <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+      <label for="navi-toggle" class="navigation__button">
+        <span class="navigation__icon">&nbsp;</span>
+      </label>
+
+      <div class="navigation__background">&nbsp;</div>
+
+      <nav class="navigation__nav">
+        <ul class="navigation__list">
+          <li class="navigation__item"><a href="#" class="navigation__link">Modo Nocturno</a></li>
+          <li class="navigation__item"><a href="./favorites.html" class="navigation__link">Favoritos</a></li>
+          <li class="navigation__item"><a href="#" class="navigation__link">Mis GIFOS</a></li>
+          <li class="navigation__item"><a href="#" class="navigation__link">Crear GIFOS</a></li>
+        </ul>
+      </nav>
     </div>
   </header>
   <main class="main">
