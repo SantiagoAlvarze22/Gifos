@@ -43,13 +43,36 @@ body {
 }
 
 .main__search--heading-title {
-  font-size: 1.6rem;
+  font-size: 2.5rem;
   font-family: "Montserrat", sans-serif;
+}
+
+.main__search--heading-title-trending {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.6rem;
+}
+
+@media only screen and (min-width: 37.5em) {
+  .main__search--heading-title-trending {
+    font-size: 1.8rem;
+  }
+}
+
+@media only screen and (min-width: 37.5em) {
+  .main__search--heading-title {
+    font-size: 3.5rem;
+  }
 }
 
 .main__search--heading-paragraph {
   font-size: 1.4rem;
   font-family: "Roboto", sans-serif;
+}
+
+@media only screen and (min-width: 37.5em) {
+  .main__search--heading-paragraph {
+    font-size: 1.6rem;
+  }
 }
 
 .main__trending--gifos-title {
@@ -60,6 +83,65 @@ body {
 .main__trending--gifos-paragraph {
   font-family: "Roboto", sans-serif;
   font-size: 1.6rem;
+}
+
+.footer__container-paragraph {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+}
+
+.footer {
+  position: relative;
+}
+
+.footer__container {
+  line-height: 4.5rem;
+}
+
+.footer__icons--facebook {
+  width: 20px;
+  height: 20px;
+  background: url("../../assets/icon_facebook.svg") no-repeat;
+  display: inline-block;
+  -webkit-transition: ease 200ms;
+  transition: ease 200ms;
+}
+
+.footer__icons--facebook:hover {
+  background: url("../../assets/icon_facebook_hover.svg") no-repeat;
+  cursor: pointer;
+}
+
+.footer__icons--twitter {
+  width: 20px;
+  height: 20px;
+  background: url("../../assets/icon-twitter.svg") no-repeat;
+  display: inline-block;
+  -webkit-transition: ease 200ms;
+  transition: ease 200ms;
+}
+
+.footer__icons--twitter:hover {
+  background-image: url("../../assets/icon-twitter-hover.svg");
+  cursor: pointer;
+}
+
+.footer__icons--instagram {
+  width: 20px;
+  height: 20px;
+  background: url("../../assets/icon_instagram.svg") no-repeat;
+  display: inline-block;
+  -webkit-transition: ease 200ms;
+  transition: ease 200ms;
+}
+
+.footer__icons--instagram:hover {
+  background-image: url("../../assets/icon_instagram-hover.svg");
+  cursor: pointer;
+}
+
+.footer__icons--social {
+  margin: 1rem;
 }
 
 @media only screen and (min-width: 37.5em) {
@@ -369,6 +451,7 @@ body {
           backface-visibility: hidden;
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
+  cursor: pointer;
 }
 
 .search__input::-webkit-input-placeholder {

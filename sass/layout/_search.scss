@@ -50,6 +50,7 @@
     transition: all 250ms ease-in-out;
     backface-visibility: hidden;
     transform-style: preserve-3d;
+    cursor: pointer;
 
     &::placeholder {
       color: color(#575756 a(0.8));

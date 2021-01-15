@@ -15,12 +15,26 @@
 .main__search {
   &--heading {
     &-title {
-      font-size: 1.6rem;
+      font-size: 2.5rem;
       font-family: $font-monserrat;
+
+      &-trending {
+        font-family: $font-monserrat;
+        font-size: 1.6rem;
+        @media only screen and (min-width: $bp-small) {
+          font-size: 1.8rem;
+        }
+      }
+      @media only screen and (min-width: $bp-small) {
+        font-size: 3.5rem;
+      }
     }
     &-paragraph {
       font-size: 1.4rem;
       font-family: $font-roboto;
+      @media only screen and (min-width: $bp-small) {
+        font-size: 1.6rem;
+      }
     }
   }
 }
@@ -37,6 +51,15 @@
       font-family: $font-roboto;
       // font-weight: 400;
       font-size: 1.6rem;
+    }
+  }
+}
+
+.footer {
+  &__container {
+    &-paragraph {
+      font-family: $font-roboto;
+      font-size: 1.5rem;
     }
   }
 }

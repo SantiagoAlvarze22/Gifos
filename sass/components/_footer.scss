@@ -1,0 +1,48 @@
+.footer {
+  position: relative;
+  &__container {
+    line-height: 4.5rem;
+  }
+  &__icons {
+    &--facebook {
+      width: 20px;
+      height: 20px;
+      background: url('../../assets/icon_facebook.svg') no-repeat;
+      display: inline-block;
+      transition: ease 200ms;
+
+      &:hover {
+        background: url('../../assets/icon_facebook_hover.svg') no-repeat;
+        cursor: pointer;
+      }
+    }
+    &--twitter {
+      width: 20px;
+      height: 20px;
+      background: url('../../assets/icon-twitter.svg') no-repeat;
+      display: inline-block;
+      transition: ease 200ms;
+
+      &:hover {
+        background-image: url('../../assets/icon-twitter-hover.svg');
+        cursor: pointer;
+      }
+    }
+    &--instagram {
+      width: 20px;
+      height: 20px;
+      background: url('../../assets/icon_instagram.svg') no-repeat;
+      display: inline-block;
+      transition: ease 200ms;
+
+      &:hover {
+        background-image: url('../../assets/icon_instagram-hover.svg');
+        cursor: pointer;
+      }
+    }
+
+    &--social {
+      margin: 1rem;
+    }
+  }
+}
