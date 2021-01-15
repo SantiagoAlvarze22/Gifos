@@ -1,0 +1,77 @@
+.main__search {
+  &--heading {
+    width: 70%;
+    margin: 0 auto;
+    padding: 3rem 0 5rem 0;
+  }
+  &--gifos {
+    padding-bottom: 5rem;
+    &-mainImage {
+      width: 80%;
+
+      @media only screen and (min-width: $bp-small) {
+        width: 50%;
+      }
+
+      @media only screen and (min-width: $bp-medium) {
+        width: 30%;
+      }
+    }
+  }
+
+  &--heading {
+    &-trending {
+      padding-bottom: 5rem;
+    }
+  }
+}
+
+.search {
+  &__input {
+    width: 85%;
+    padding: 12px 24px;
+    font-family: $font-roboto;
+    background-color: transparent;
+    transition: transform 250ms ease-in-out;
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+    transform: translateY(-3px);
+
+    color: #575756;
+
+    background-image: url('../../assets/icon-search.svg');
+    background-repeat: no-repeat;
+    background-size: 18px 18px;
+    background-position: 95% center;
+    border-radius: 50px;
+    border: 1px solid $color-primary;
+    transition: all 250ms ease-in-out;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+
+    &::placeholder {
+      color: color(#575756 a(0.8));
+      font-family: $font-roboto;
+      letter-spacing: 1.5px;
+    }
+
+    &:hover,
+    &:focus {
+      padding: 12px 0;
+      outline: 0;
+      border: 1px solid transparent;
+      border-bottom: 1px solid $color-primary;
+      border-radius: 0;
+      background-position: 100% center;
+    }
+    &:focus {
+      background-image: url('../../assets/close.svg');
+    }
+    @media only screen and (min-width: $bp-small) {
+      width: 60%;
+    }
+    @media only screen and (min-width: $bp-medium) {
+      width: 35%;
+    }
+  }
+}
