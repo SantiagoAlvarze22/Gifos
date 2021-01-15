@@ -24,3 +24,19 @@
     }
   }
 }
+
+.main__trending {
+  &--gifos {
+    &-title {
+      font-size: 2rem;
+      font-family: $font-monserrat;
+      // font-weight: bold;
+    }
+
+    &-paragraph {
+      font-family: $font-roboto;
+      // font-weight: 400;
+      font-size: 1.6rem;
+    }
+  }
+}
